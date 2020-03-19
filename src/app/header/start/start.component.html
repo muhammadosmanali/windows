@@ -1,0 +1,45 @@
+<div class="start-panel" [ngClass]="animation">
+  <div class="clearfix">
+    <div class="box">
+      <img class="user" src="/assets/images/user.png">
+      <h4 class="user-h">No User Found!</h4>
+      <hr>
+<!--      <br><br><br><br><br><br><br>-->
+      <div class="distance"></div>
+      <ul class="start-list">
+        <li>
+          <a class="options" [routerLink]="'/explorer'">
+            <img src="/assets/images/dark-explorer.png" class="explorer">
+            <p class="explorer-p">File Explorer</p>
+          </a>
+        </li>
+
+        <li>
+          <a class="options" [routerLink]="'/browser'">
+            <img src="/assets/images/dark-chrome.png" class="browser-setting">
+            <p class="browser-setting-p1">Browser</p>
+          </a>
+        </li>
+
+        <li>
+          <a class="options" [routerLink]="'/setting'">
+            <img src="/assets/images/dark-setting.png" class="browser-setting">
+            <p class="browser-setting-p2">Settings</p>
+          </a>
+        </li>
+
+        <li>
+          <a class="options" (click)="shutdown()">
+            <img src="/assets/images/shutdown.png" class="shutdown">
+            <p class="shutdown-p">Shutdown</p>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="box2">
+      <p>No Data fetch here.</p>
+    </div>
+  </div>
+</div>

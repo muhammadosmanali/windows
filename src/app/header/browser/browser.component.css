@@ -1,0 +1,21 @@
+.only-box1 {
+  height: 5vh;
+  background-color: #0D8099;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.only-box2 {
+  height: 87.5vh;
+  background-color: white;
+  margin-top: -22px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+

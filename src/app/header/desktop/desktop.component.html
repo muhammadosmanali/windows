@@ -1,0 +1,46 @@
+<div class="rightClick" (contextmenu)="onRightClick($event)" #menu (click)="onLeftClick()">
+  <div>
+    <img (click)="onclick()"
+         src="/assets/images/mycomputer.png"
+         height="40px"
+         width="40px"
+         style="margin-top: 8px; margin-left: 10px;cursor: pointer"
+         [routerLink]="status ? 'explorer' : '/'"
+    >
+
+    <br>
+    <br>
+    <br>
+    <img (click)="onclick()"
+         src="/assets/images/setting.png"
+         height="40px"
+         width="40px"
+         style="margin-top: 8px; margin-left: 10px;cursor: pointer"
+         [routerLink]="status ? 'setting' : '/'"
+    >
+
+    <br>
+    <br>
+    <br>
+    <img (click)="onclick()"
+         src="/assets/images/chrome.png"
+         height="40px"
+         width="40px"
+         style="margin-top: 8px; margin-left: 10px;cursor: pointer"
+         [routerLink]="status ? 'browser' : '/'"
+    >
+  </div>
+  <div class="menu" *ngIf="menuStatus">
+    <ul>
+      <li><a (click)="refresh()">Refresh</a></li>
+      <li class="dropdown">
+        <p class="drop-btn">Open</p>
+        <div class="dropdown-content">
+          <a [routerLink]="'/explorer'">Explorer</a>
+          <a [routerLink]="'/browser'">Browser</a>
+          <a [routerLink]="'/setting'">Setting</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

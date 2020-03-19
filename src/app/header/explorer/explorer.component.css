@@ -1,0 +1,12 @@
+svg {
+  margin-left: -40px;
+}
+
+svg path {
+  fill: white;
+}
+
+svg:hover path{
+  fill: black;
+}
+

@@ -1,0 +1,63 @@
+
+
+/* Big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* small tablet to big tablet: from 768-1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+
+/* small phones to small tablet: form 481-767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+/* small phones: from 0-480px*/
+@media only screen and (max-width: 480px) {
+  .main-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .setting-image {
+    height: 15px;
+    width: 15px;
+  }
+
+  .close-image {
+    height: 12px;
+    width: 12px;
+    margin-top: 7px;
+  }
+
+  .only-box1 {
+    height: 4vh;
+  }
+
+  .only-box2 {
+    height: 89.5vh;
+  }
+
+  .header-box-1 {
+    height: 4vh;
+  }
+
+  .header-box-2 {
+    height: 4vh;
+  }
+
+  .box-1 {
+    height: 89.5vh;
+  }
+
+  .box-2 {
+    height: 89.5vh;
+  }
+}

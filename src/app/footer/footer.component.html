@@ -1,0 +1,17 @@
+<div class="footer">
+  <div class="menu">
+    <a class="start" [routerLink]="status ? '/' : 'start'" (click)="onclick()">
+      <img src="/assets/images/start.png" class="size">
+    </a>
+    <a [routerLink]="'setting'">
+      <img class="internet-explorer size" src="/assets/images/setting.png">
+    </a>
+    <a [routerLink]="'explorer'">
+      <img class="internet-explorer explorer-size" src="/assets/images/explorer.png" width="35px" height="30px">
+    </a>
+    <a [routerLink]="'browser'">
+      <img class="internet-explorer size" src="/assets/images/chrome.png" width="30px" height="30px">
+    </a>
+  </div>
+  <p class="date">{{date | date:'dd/mm/yy h:mm a'}}</p>
+</div>

@@ -1,0 +1,76 @@
+.child-no-padding>div {
+  padding: 0 !important;
+}
+
+.main-div {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 3px;
+}
+
+.header-box-1 {
+  background-color: #0D8099;
+  border-top-left-radius: 4px;
+  height: 5vh;
+}
+
+.header-box-2 {
+  background-color: #0D8099;
+  border-top-right-radius: 4px;
+  height: 5vh;
+}
+
+.box-1 {
+  height: 87.5vh;
+  background-color: rgba(0,0,0,0.7);
+  border-bottom-left-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.box-2 {
+  height: 87.5vh;
+  background-color: white;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+}
+
+.setting-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+
+.close-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor:pointer;
+}
+
+.user-setting {
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+
+.setting-list {
+  list-style: none;
+  color: white;
+  border: 1px solid rgba(0,0,0,0.0);
+}
+
+.setting-list:hover {
+  background-color: white;
+  color: black;
+  transition: 1s background-color, 0.5s color ease-in-out;
+}
+
+.setting-content {
+  cursor: pointer;
+  margin-right:40px;
+  font-size: 18px;
+}
